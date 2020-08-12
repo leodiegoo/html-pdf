@@ -8,7 +8,6 @@ RUN apt-get update \
   && apt-get install -y google-chrome-stable fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst fonts-freefont-ttf libxss1 \
   --no-install-recommends \
   && rm -rf /var/lib/apt/lists/*
-RUN apt-get install libssl1.0.0 libssl-dev libxss1
 
 WORKDIR /usr/src/app
 
